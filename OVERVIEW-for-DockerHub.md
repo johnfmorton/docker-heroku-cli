@@ -14,6 +14,8 @@ docker container run --rm -it -v `pwd`:/app johnfmorton/heroku-cli
 
 Use the `heroku` command at the bash shell prompt as you like. Read the [heroku-cli documentation](https://devcenter.heroku.com/articles/heroku-cli) for more information.
 
+The image also includes `git` so that you can deploy to Heroku from the heroku-cli. See documentation in the [Heroku Dev Center](https://devcenter.heroku.com/articles/git).
+
 ## Setting up an alias for ease of use
 
 You can set up an alias in your `rc` file to bring up a command line with the heroku-cli like this.

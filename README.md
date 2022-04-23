@@ -13,3 +13,5 @@ docker container run --rm -it -v `pwd`:/app johnfmorton/heroku-cli
 ```
 
 At the bash shell prompt, use the `heroku` command as you like. Read the [heroku-cli documentation](https://devcenter.heroku.com/articles/heroku-cli) for more information.
+
+In version 1.1.0 of this repo, Git was added to the image.
