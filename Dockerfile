@@ -10,6 +10,8 @@ RUN set -eux; \
     # Packages to install
     apk add --no-cache \
     && \
+    apk add git \
+    && \
     apk add curl \
     && \
     apk add bash \
